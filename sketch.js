@@ -31,7 +31,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	packageBody = Bodies.circle(width/2 , 200, 5 , {restitution:0.4, isStatic:false});
+	packageBody = Bodies.circle(width/2 , 200, 5 , {restitution:0, isStatic:false});
 	World.add(world, packageBody);
 	
 
@@ -47,7 +47,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(2);
+  background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   drawSprites();
