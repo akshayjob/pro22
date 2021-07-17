@@ -2,7 +2,7 @@ var helicopterIMG, helicopterSprite, packageSprite, packageIMG;
 var packageBody,ground
 const Engine = Matter.Engine;
 const World = Matter.World;
-const Bodies = Matter.Bodies;
+const Bodies = Matter.Bodies;https://github.com/akshayjob/pro22/settings
 const Body = Matter.Body;
 //hello
 function preload()
@@ -51,7 +51,7 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   drawSprites();
-  keyPressed();
+ // keyPressed();
 	
 	
 }
