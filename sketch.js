@@ -1,4 +1,4 @@
-var helicopterIMG, helicopterSprite, packageSprite,packageIMG;
+var helicopterIMG, helicopterSprite, packageSprite, packageIMG;
 var packageBody,ground
 const Engine = Matter.Engine;
 const World = Matter.World;
@@ -31,14 +31,14 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	packageBody = Bodies.circle(width/2 , 200, 5 , {restitution:3, isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200, 5 , {restitution:3, isStatic:false});
 	World.add(world, packageBody);
 	
 
 	//Create a Ground
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
  	World.add(world, ground);
-       stop jumping
+       
 
 	Engine.run(engine);
   
