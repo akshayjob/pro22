@@ -4,7 +4,7 @@ var packageBody,ground
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
-Body = Matter.Body;
+const Body = Matter.Body;
 
 function preload()
 {
