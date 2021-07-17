@@ -52,7 +52,6 @@ function draw() {
   packageSprite.y= packageBody.position.y 
   drawSprites();
 	
-  keyPressed();
 	
 }
 
