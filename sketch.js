@@ -18,11 +18,11 @@ function setup() {
 
 	packageSprite=createSprite(width/2, 80, 10,10);
 	packageSprite.addImage(packageIMG)
-	packageSprite.scale=0
+	packageSprite.scale=0.2
 
 	helicopterSprite=createSprite(width/2, 200, 10,10);
 	helicopterSprite.addImage(helicopterIMG)
-	helicopterSprite.scale=0.6
+	helicopterSprite.scale=0.2
 
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
